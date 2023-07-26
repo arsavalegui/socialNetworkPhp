@@ -1,0 +1,89 @@
+.pou{
+	background-color:#0d1117;
+}
+
+.nav{
+	display: flex;
+	padding: 15px;
+	justify-content: center;
+}
+
+.segment{
+	display: flex;
+	padding:1.5rem;
+	box-shadow:0 1px 5px #aaa;
+	background: white;
+	margin:0px 420px 0px;
+	border-radius:3px;
+	margin-bottom: 12px;
+}
+
+.image{
+	display: flex;
+	padding:1.5rem;
+	box-shadow:0 1px 5px #aaa;
+	background: white;
+	margin:0px 720px 0px;
+	border-radius:3px;
+	margin-bottom: 12px;
+	justify-content: center;
+}
+
+.col{
+	display: flex;
+	padding: 10px;
+}
+
+.p{
+	display: flex;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: -0.2px;
+	font-size: 16px;
+}
+
+
+input{
+	border: 0;
+	outline: 0;
+	font-size: 16px;
+	border-radius: 320px;
+	padding: 16px;
+	background-color: #ebecf0;
+	text-shadow: 1px 1px 0 #fff;
+	margin-bottom: 10px;
+}
+
+label{
+	display: block;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+input{
+	margin-right: 8px;
+	box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+	width: 100%;
+	box-sizing: border-box;
+	transition: all 0.2s ease-in-out;
+	appearance: none;
+	-webkit-appareance: none;
+}
+
+input:focus{
+	box-shadow: iset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+.input-group{
+	display: felx;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.input-group label{
+	margin:  0;
+	flex: 1;
+}
+
+a{
+	text-decoration: none;
+}
